@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fb88f7c7-402d-4df1-9bac-665ca3d79bfe")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e6daaa-c153-4a98-a06b-389bc7808085")
+	)
+	(wire
+		(pts
+			(xy 29.21 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c403bc67-ad9a-47fa-9d67-f61226f2443e")
+	)
+	(wire
+		(pts
+			(xy 29.21 60.96) (xy 90.17 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35a47ae-205c-493b-9d00-e6683b2dadc9")
+	)
+	(wire
+		(pts
+			(xy 29.21 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d27e97-bcce-4cdb-8848-20675e141b34")
+	)
+	(hierarchical_label "LIDAR_TX-"
+		(shape input)
+		(at 29.21 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ebe8740-a3e2-4f6e-9f54-221598051749")
+	)
+	(hierarchical_label "LIDAR_RX-"
+		(shape input)
+		(at 29.21 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a36eb51a-b6ba-4807-abc1-eed0648c7fa8")
+	)
+	(hierarchical_label "LIDAR_RX+"
+		(shape input)
+		(at 29.21 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c033c8c6-e9b5-4c71-8488-4b4bbc1ef62b")
+	)
+	(hierarchical_label "LIDAR_TX+"
+		(shape input)
+		(at 29.21 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d484087d-04d4-4e2e-8b16-7a36339cec7f")
+	)
+)

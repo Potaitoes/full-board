@@ -1363,6 +1363,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 97.79) (xy 250.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b47bfc-b802-4d69-8da7-d2b933f1e2d5")
+	)
+	(wire
+		(pts
 			(xy 27.94 34.29) (xy 44.45 34.29)
 		)
 		(stroke
@@ -1370,6 +1380,27 @@
 			(type default)
 		)
 		(uuid "d26709ed-9607-404f-af18-ab13871cf2f6")
+	)
+	(wire
+		(pts
+			(xy 233.68 95.25) (xy 250.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4a74fa-f3ce-4525-8b08-2e9cf7cce728")
+	)
+	(hierarchical_label "CANH"
+		(shape input)
+		(at 250.19 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2d223620-de14-430b-b2f2-555249123557")
 	)
 	(hierarchical_label "MC_D-"
 		(shape input)
@@ -1381,6 +1412,17 @@
 			(justify left)
 		)
 		(uuid "90b0bf67-f605-4628-b508-a4af3ac6f641")
+	)
+	(hierarchical_label "CANL"
+		(shape input)
+		(at 250.19 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abc07f40-5d4c-4b72-90f4-c7af689c0795")
 	)
 	(hierarchical_label "MC_D+"
 		(shape input)

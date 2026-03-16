@@ -1120,6 +1120,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 78.74) (xy 255.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a10d0d5-bd8a-4892-aec3-9196e6b55972")
+	)
+	(wire
+		(pts
+			(xy 35.56 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742fb40e-c2bd-4eb6-b899-0accef11cde9")
+	)
+	(wire
+		(pts
 			(xy 35.56 86.36) (xy 96.52 86.36)
 		)
 		(stroke
@@ -1137,6 +1157,49 @@
 			(type default)
 		)
 		(uuid "a058bb84-2a33-4c6b-b8a7-0351add1dac3")
+	)
+	(wire
+		(pts
+			(xy 35.56 58.42) (xy 62.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e2b00a-3e97-45eb-844e-a7239188306c")
+	)
+	(hierarchical_label "trig_D-"
+		(shape input)
+		(at 35.56 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f42599f-5cd2-48cb-b320-977d1213b822")
+	)
+	(hierarchical_label "trig_D+"
+		(shape input)
+		(at 35.56 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f257f14-0d23-4ae6-bec3-413e581f027f")
+	)
+	(hierarchical_label "pulse_out"
+		(shape input)
+		(at 255.27 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46d79f18-e26e-4ba9-8bfe-ea1c5a9b4797")
 	)
 	(hierarchical_label "LIDAR_TX-"
 		(shape input)
